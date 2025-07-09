@@ -1,0 +1,34 @@
+# Node
+node_modules/
+.env*
+dist/
+build/
+coverage/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# macOS
+.DS_Store
+
+# Editor
+.idea/
+.vscode/
+*.swp
+
+# Dependency directories
+apps/*/node_modules/
+
+# Output
+apps/*/build/
+apps/*/dist/
+
+# Test
+apps/*/coverage/
+
+# Misc
+*.local
+*.log
